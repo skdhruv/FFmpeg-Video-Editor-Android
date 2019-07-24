@@ -61,6 +61,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/dp5"
             android:gravity="center"
+            android:visibility="gone"
             android:text="@string/rangeSeekBarText"
             android:textColor="#000000" />
 
@@ -122,6 +123,7 @@
                     android:background="@drawable/extract_images_selector"
                     android:gravity="center"
                     android:padding="@dimen/dp2"
+                    android:visibility="gone"
                     android:text="@string/extractImages"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/sp16" />
@@ -133,6 +135,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/extract_audio_selector"
                     android:gravity="center"
+                    android:visibility="gone"
                     android:padding="@dimen/dp2"
                     android:text="@string/extractAudio"
                     android:textColor="#FFFFFF"
@@ -149,6 +152,7 @@
                     android:background="@drawable/fade_video_selector"
                     android:gravity="center"
                     android:padding="@dimen/dp2"
+                    android:visibility="gone"
                     android:text="@string/addFade"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/sp16" />
@@ -161,6 +165,7 @@
                     android:background="@drawable/increase_speed_selector"
                     android:gravity="center"
                     android:padding="@dimen/dp2"
+                    android:visibility="gone"
                     android:text="@string/increaseSpeed"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/sp16" />
@@ -173,6 +178,7 @@
                     android:background="@drawable/slow_video_selector"
                     android:gravity="center"
                     android:padding="@dimen/dp2"
+                    android:visibility="gone"
                     android:text="@string/decreaseSpeed"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/sp16" />
@@ -185,6 +191,7 @@
                     android:background="@drawable/reverse_video_selector"
                     android:gravity="center"
                     android:padding="@dimen/dp2"
+                    android:visibility="gone"
                     android:text="@string/reverseVideo"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/sp16" />
